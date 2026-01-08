@@ -1,0 +1,451 @@
+body {
+  font-family: Arial, sans-serif;
+  background: lightblue;
+  margin: 0;
+  text-align: center;
+}
+
+.container{
+            display:grid;            
+            justify-content:center;
+            align-items:center;
+            gap:20px;
+            grid-template-areas: "c1 c2"
+                                 "c3 c4";
+}
+
+.container2{
+            display:grid;            
+            justify-content:center;
+            align-items:center;
+            gap:20px;
+            grid-template-areas: "c5 c6"
+                                 "c7 c8";
+}
+
+.container3{
+            display:grid;            
+            justify-content:center;
+            align-items:center;
+            gap:20px;
+            grid-template-areas: "c9 c10";
+}
+
+.container4{
+            display:grid;            
+            justify-content:center;
+            align-items:center;
+            gap:20px;
+            grid-template-areas: "c11";
+}
+
+.container5{
+            display:grid;            
+            justify-content:center;
+            align-items:center;
+            gap:20px;
+            grid-template-areas: "c12 c13";
+}
+
+.container6{
+            display:grid;            
+            justify-content:center;
+            align-items:center;
+            gap:20px;
+            grid-template-areas: "c14";
+}
+
+.card1 {
+  border-radius: 8px;
+  overflow: hidden;        
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  margin: 1rem auto;
+  width:600px;
+  height:500px;
+  grid-area:c1;
+}
+
+.card1-image {
+  height:400px;
+  background-image: url("https://cdn.audleytravel.com/1400/1000/60/16024330-levada-do-rei-madeira.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.card1-content {
+  background: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.card1-content h3 {
+  margin-top: 0;
+}
+  
+.card2 {
+  border-radius: 8px;
+  overflow: hidden;        
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  margin: 1rem auto;
+  width:600px;
+  height:500px;
+  grid-area:c2;
+}
+
+.card2-image {
+  height:400px;
+  background-image: url("https://visitmadeira.com/media/zusbzy3n/10052022150732dsc02728.jpg?width=1920&height=1080&rnd=133247346221730000");
+  background-size: cover;
+  background-position: center;
+}
+
+.card2-content {
+  background: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.card2-content h3 {
+  margin-top: 0;
+}
+
+.card3 {
+  border-radius: 8px;
+  overflow: hidden;        
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  margin: 1rem auto;
+  width:600px;
+  height:500px;
+  grid-area:c3;
+}
+
+.card3-image {
+  height:400px;
+  background-image: url("https://images.turismoenportugal.org/Piscinas-Naturais-Porto-Moniz.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.card3-content {
+  background: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.card3-content h3 {
+  margin-top: 0;
+}
+
+.card4 {
+  border-radius: 8px;
+  overflow: hidden;        
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  margin: 1rem auto;
+  width:600px;
+  height:500px;
+  grid-area:c4;
+}
+
+.card4-image {
+  height:400px;
+  background-image: url("https://receitasdamama.pt/wp-content/uploads/2023/07/Bolo-do-caco.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+.card4-content {
+  background: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.card4-content h3 {
+  margin-top: 0;
+}
+
+.card5 {
+  border-radius: 8px;
+  overflow: hidden;        
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  margin: 1rem auto;
+  width:600px;
+  height:490px;
+  grid-area:c5;
+}
+
+.card5-image {
+  height:400px;
+  background-image: url("https://picoandponcha.com/wp-content/uploads/2024/01/Viewpoint-Porto-Moniz.jpg");
+  background-position: center;
+}
+
+.card5-content {
+  background: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.card5-content h3 {
+  margin-top: 0;
+}
+
+.card6 {
+  border-radius: 8px;
+  overflow: hidden;        
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  margin: 1rem auto;
+  width:600px;
+  height:490px;
+  grid-area:c6;
+}
+
+.card6-image {
+  height:400px;
+  background-image: url("https://visitmadeira.com/media/garj5xh2/dsc_6191.jpg?width=1920&height=1080&rnd=133282100342800000");
+  background-size: cover;
+  background-position: center;
+}
+
+.card6-content {
+  background: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.card6-content h3 {
+  margin-top: 0;
+}
+
+.card7 {
+  border-radius: 8px;
+  overflow: hidden;        
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  margin: 1rem auto;
+  width:600px;
+  height:490px;
+  grid-area:c7;
+}
+
+.card7-image {
+  height:400px;
+  background-image: url("https://cdn.aquotic.com/images/puertos/standard/FUNCHAL_-_Zona_Velha_1509033006.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.card7-content {
+  background: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.card7-content h3 {
+  margin-top: 0;
+}
+
+.card8 {
+  border-radius: 8px;
+  overflow: hidden;        
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  margin: 1rem auto;
+  width:600px;
+  height:490px;
+  grid-area:c8;
+}
+
+.card8-image {
+  height:400px;
+  background-image: url("https://www.visitmachico.com/images/layerslider/SliderPrincipalFP/FP5.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.card8-content {
+  background: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.card8-content h3 {
+  margin-top: 0;
+}
+
+.card9 {
+  border-radius: 8px;
+  overflow: hidden;        
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  margin: 1rem auto;
+  width:600px;
+  height:600px;
+  grid-area:c9;
+}
+
+.card9-image {
+  height:400px;
+  background-image: url("https://images.turismoenportugal.org/Piscinas-Naturais-Porto-Moniz.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.card9-content {
+  background: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.card9-content h3 {
+  margin-top: 0;
+}
+
+.card10 {
+  border-radius: 8px;
+  overflow: hidden;        
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  margin: 1rem auto;
+  width:600px;
+  height:600px;
+  grid-area:c10;
+}
+
+.card10-image {
+  height:400px;
+  background-image: url("https://visitmadeira.com/media/gtflwemb/aqu%C3%A1rio-da-madeira-2.jpg?width=1920&height=1080&rnd=133244078386800000");
+  background-size: cover;
+  background-position: center;
+}
+
+.card10-content {
+  background: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.card10-content h3 {
+  margin-top: 0;
+}
+
+.card11 {
+  border-radius: 8px;
+  overflow: hidden;        
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  margin: 1rem auto;
+  width:600px;
+  height:600px;
+  grid-area:c11;
+}
+
+.card11-image {
+  height:400px;
+  background-image: url("https://live.staticflickr.com/65535/53059437092_ee54101e26_b.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.card11-content {
+  background: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.card11-content h3 {
+  margin-top: 0;
+}
+
+.card12 {
+  border-radius: 8px;
+  overflow: hidden;        
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  margin: 1rem auto;
+  width:600px;
+  height:600px;
+  grid-area:c12;
+}
+
+.card12-image {
+  height:400px;
+  background-image: url("https://visitmadeira.com/media/dtbluxku/jardim-botanico039-francisco-correia.jpg?width=1920&height=1080&rnd=133262262731030000");
+  background-size: cover;
+  background-position: center;
+}
+
+.card12-content {
+  background: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.card12-content h3 {
+  margin-top: 0;
+}
+
+.card13 {
+  border-radius: 8px;
+  overflow: hidden;        
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  margin: 1rem auto;
+  width:600px;
+  height:600px;
+  grid-area:c13;
+}
+
+.card13-image {
+  height:400px;
+  background-image: url(" https://www.fischer.cz/getmedia/181eb0a1-2d20-4c6e-aaa0-c8dd30fb5edb/jardim-tropical-monte-palace-0_1200x0.jpg.aspx?maxsidesize=1200&resizemode=force");
+  background-size: cover;
+  background-position: center;
+}
+
+.card13-content {
+  background: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.card13-content h3 {
+  margin-top: 0;
+}
+
+.card14 {
+  border-radius: 8px;
+  overflow: hidden;        
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  margin: 1rem auto;
+  width:600px;
+  height:600px;
+  grid-area:c14;
+}
+
+.card14-image {
+  height:400px;
+  background-image: url("https://res.cloudinary.com/tf-lab/image/upload/w_520,h_520,c_fill,q_auto,f_auto/restaurant/ebcf8546-77ed-4693-8d95-6f262756a958/8e85f3a8-7c9e-401b-8902-4a2a859f9e63.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.card14-content {
+  background: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.card14-content h3 {
+  margin-top: 0;
+}
+
+header, footer {
+  background: #037c03ee;
+  padding: 1rem;
+}
+
+main {
+  padding: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  margin-right: 0.5rem;
+}
+
+section {
+  margin-bottom: 1.5rem;
+}
